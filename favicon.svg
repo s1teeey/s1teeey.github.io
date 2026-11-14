@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <title>R1</title>
+  <defs>
+    <linearGradient id="silver" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="0.6" stop-color="#d3d6da"/>
+      <stop offset="1" stop-color="#9da2a8"/>
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="14" fill="#0b0b0c"/>
+  <!-- 紅色弧線：從左下繞到右上，壓在 R 後面 -->
+  <path d="M5 50.5 C19 54 44 44 59 16.5" fill="none" stroke="#e10600" stroke-width="3.6" stroke-linecap="round"/>
+  <!-- 斜體 R：主幹左上角的小旗子是「1」 -->
+  <g transform="translate(8 0) skewX(-13)">
+    <path fill="url(#silver)" fill-rule="evenodd" d="M18 9.5 H38.5 C46.5 9.5 51 14.5 51 21.5 C51 27.8 47.2 31.8 41.4 32.8 L52.5 53 H41.2 L31.6 34.3 H28.3 V53 H18 V19.5 L11.5 19.5 Z M28.3 18.4 V26.4 H37.8 C40.4 26.4 41.7 24.9 41.7 22.4 C41.7 19.9 40.4 18.4 37.8 18.4 Z"/>
+  </g>
+</svg>
